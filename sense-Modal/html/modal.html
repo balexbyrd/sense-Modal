@@ -1,0 +1,37 @@
+<div class="modal inmodal in" id="modalSend" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content animated fadeInDown">	
+			<div class="modal-header">
+				<button type="button" class="close strap" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>				
+				<h4 class="modal-title"><i class="fa fa-chain modal-icon"></i>&nbsp;Modal Header</h4>
+				<small class="font-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
+			</div>
+			<div class="modal-body">
+				<small>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</small>
+				<br><br>
+				<form id="modalForm">
+					<fieldset id="saveTask">
+						<label for="task"><i class="fa fa-floppy-o" aria-hidden="true"></i> Save Task (required, select 1)</label>					
+						<p style="text-indent: 20px;">
+							<input type="radio" id="new" value="POST" name="task" required="" aria-required="true">&nbsp; New
+						</p>
+						<p style="text-indent: 20px;">
+							<input type="radio" id="update" value="PUT" name="task">&nbsp; Update
+						</p>
+					</fieldset>				  
+					<fieldset>				  
+						<p>
+							<label><i class="fa fa-tag" aria-hidden="true"></i> Name (required, at least 5 characters)</label> 
+							<input id="cnameSend" name="name" minlength="5" type="text" placeholder="Enter a unique name to begin" class="form-control" required>					  
+						</p>
+					</fieldset>
+					<br>
+					<p class="modal-footer">
+						<button type="button" class="btn btn-white strap" data-dismiss="modal">Close</button>
+						<input id="send" type="submit" class="btn btn-primary" value="Save Selections">
+					</p>					
+				</form>				
+			</div>
+		</div>
+	</div>
+</div>

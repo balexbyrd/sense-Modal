@@ -1,0 +1,54 @@
+
+.modal-backdrop {
+   opacity:0.9 !important;
+}
+
+.bootstrap_inside .container {
+    width: 98% !important;
+	height: 103% !important;
+}
+
+/* .bootstrap_inside .qv-object .qv-object-title {
+    white-space: normal;
+} */
+
+.bootstrap_inside .qvplaceholder.drop-hover{
+  border: 3px solid #ff8e00;
+}
+
+.bootstrap_inside .qvtarget{
+  border: 1px dashed #269abc;
+}
+
+
+.bootstrap_inside .tab-content{	
+	padding-top: 6px;
+	border: 1px solid #ddd;
+	border-top-color: transparent;
+}
+
+.bootstrap_inside .qvobject{	
+	margin: auto;
+	height: 97% !important;
+	width: 90% !important;
+}
+
+/* .bootstrap_inside .expIcon{
+	padding: 0 4px 3px 3px;
+} */
+
+/* Important - do not delete! */
+.bootstrap_inside {
+	height: 100% !important;
+}
+
+.bootstrap_inside h1 {
+/*     padding-top: 6px; */
+	padding: 3px 0 0 20%;
+	margin: 0.2em 0;
+	font-size: 12px;
+	font-weight: bold;
+    text-align: center;
+}
+
+
